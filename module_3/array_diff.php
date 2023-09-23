@@ -8,6 +8,7 @@ print_r($result);
 
 //syntax
 // array_diff(array1, array2, array3, ...)
+//only values will be compared
 // Parameter	Description
 // array1	Required. The array to compare from
 // array2	Required. An array to compare against

@@ -13,4 +13,8 @@ print_r($toLowerCase);
 
 
 //works on only associated array keys//
+
+
+//Syntax
+//array_change_key_case(array, case)
 ?>

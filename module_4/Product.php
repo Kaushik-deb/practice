@@ -15,13 +15,14 @@ class Product {
 
     // TODO: Add getFormattedPrice method
     public function getFormattedPrice(){
-        echo "Price:"."$".round($this->price,2);
+        echo "-"."Price:"."$".round($this->price,2);
     }
 
     // TODO: Add showDetails method
     public function showDetails(){
-        echo "ID:".$this->id."\n";
-        echo "Name:".$this->name."\n";
+        echo "Product Details:"."\n";
+        echo "-ID:".$this->id."\n";
+        echo "-Name:".$this->name."\n";
         echo $this->getFormattedPrice();
         
     }

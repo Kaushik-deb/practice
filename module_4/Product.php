@@ -1,0 +1,49 @@
+<?php
+class Product {
+    // TODO: Add properties
+    public int $id;
+    public string $name;
+    public float $price;
+    
+    public function __construct($id, $name, $price) {
+        // TODO: Initialize properties
+        $this->id = $id;
+        $this->name = $name;
+        $this->price = $price;
+    }
+
+
+    // TODO: Add getFormattedPrice method
+    public function getFormattedPrice(){
+        echo "Price:"."$".round($this->price,2);
+    }
+
+    // TODO: Add showDetails method
+    public function showDetails(){
+        echo "ID:".$this->id."\n";
+        echo "Name:".$this->name."\n";
+        echo $this->getFormattedPrice();
+        
+    }
+}
+
+
+// Test the Product class
+$product = new Product(1, 'T-shirt', 19.996);
+$product->showDetails();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+?>

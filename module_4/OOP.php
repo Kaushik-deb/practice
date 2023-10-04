@@ -9,7 +9,7 @@ class fruits{
         return $this->name;
     }
 }
-$fruitName= new fruits();
+$fruitName= new fruits;
 $fruitName->set_name("guava");
 echo $fruitName->get_name();
 
